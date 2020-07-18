@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: auto;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #6666;
+}
+
+.menubar .logo{
+    float: left;
+    cursor: pointer;
+}
+
+.menubar h1{
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.menubar ul.menu{
+    list-style: none;
+    float: right;
+}
+
+.menubar ul.menu li{
+    float: left;
+    margin-right: 20px;
+}
+
+/* ทำขีดเส้นใต้ Button */
+.menubar ul.menu li a{
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover{
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+}
+
+.header{
+    width: 100%;
+    background: url(../img/bg.jpg) no-repeat;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_area{
+    padding-top: 220px;
+    width: 660px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffff;
+}
+.header_area h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.header_area p{
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 16px;
+    width: 480px;
+}
+
+.info1{
+    width: 100%;
+    height: 500px;
+    background-color:#ffff;
+}
+
+.info1_area{
+    color: #333;
+}
+
+.info1_area img{
+    margin-top: 80px;
+    float: left;
+   
+}
+.info_text{
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 140px;
+    
+}
+.info_text p{
+    color: rgb(150, 143, 143);
+    font-size: 24px;
+}
+
+.info1_area h1{
+    color: black;
+    font-size: 45px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.info2{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(43, 40, 40);
+}
+
+.info2_area{
+    color: rgb(19, 18, 18);
+}
+
+.info2_area img{
+    margin-top: 80px;
+    float: right;
+    margin-right: 60px;
+   
+}
+.info2_text{
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+.info2_text p{
+    color: rgb(173, 168, 168);
+    font-size: 24px;
+    margin: 5 px;
+    
+}
+
+.info2_area h1{
+    color: #ffff;
+    font-size: 45px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.contact{
+    width: 100%;
+    height: 515px;
+
+}
+
+.contact_area h1{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.contact_area input{
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact_area textarea{
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact_area button{
+    padding: 10px;
+    width: 100 px;
+    background: #333;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact_area button:hover{
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+    
+}
+
+footer{
+    height: 60px;
+    background: #333;
+    margin-top: 60px;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+}
